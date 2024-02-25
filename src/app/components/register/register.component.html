@@ -1,0 +1,20 @@
+<div id="container">
+  <!-- Cover Box -->
+  <div id="cover">
+  <!-- Sign Up Section -->
+  
+    <div class="rounded-lg border border-gray-300 p-8" *ngIf="showRegistrationData">
+      <h2 class="text-3xl font-semibold mb-6">Registration Successful!</h2>
+      <p>Name: {{ registrationData.name }}</p>
+      <p>Email: {{ registrationData.email }}</p>
+      <p>Account Number: {{ registrationData.accountNumber }}</p>
+      <p>Branch: {{ registrationData.branch }}</p>
+      <div class="mt-4 flex items-center justify-center">
+        <a routerLink="/home" type="button"
+          class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          (click)="showRegistrationData = false">Continue to Login</a>
+      </div>
+    </div>
+  </div>
+</div>
+ 
