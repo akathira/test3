@@ -1,0 +1,22 @@
+<hr>
+<h3>Create Investor</h3>
+<form (ngSubmit)="onSubmit()">
+<div class="form-group">
+<label for="">Name</label>
+<br>
+<input type="text" class="form-control" id="name"
+        [(ngModel)]="investors.name" name="name">
+<br>
+<label for="">Address</label>
+<br>
+<input type="text" class="form-control" id="address"
+        [(ngModel)]="investors.address" name="address">
+<br>
+<label for="">Amount</label>
+<br>
+<input type="text" class="form-control" id="amount"
+        [(ngModel)]="investors.amount" name="amount">
+<br>
+</div>
+<button class="btn btn-success" type="submit">Submit</button>
+</form>
