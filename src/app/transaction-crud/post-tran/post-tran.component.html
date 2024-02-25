@@ -1,0 +1,22 @@
+<h4>Investor Id</h4>
+<div>
+  <app-findbyid (newItemEvent)="addItem($event)"></app-findbyid> 
+</div>
+
+<hr>
+<h3>Create Transactions</h3>
+<form (ngSubmit)="onSubmit()">
+<div class="form-group">
+<label for="">Transaction Date</label>
+<br>
+<input type="text" class="form-control" id="transactionDate"
+        [(ngModel)]="transactions.transactionDate" name="transactionDate">
+<br>
+<label for="">Amount</label>
+<br>
+<input type="text" class="form-control" id="transactionAmount"
+        [(ngModel)]="transactions.transactionAmount" name="transactionAmount">
+<br>
+</div>
+<button class="btn btn-success" type="submit">Submit</button>
+</form>

@@ -1,0 +1,17 @@
+<h2>Fetch Transaction</h2>
+<table border="2"  style="padding:10px;">
+
+    <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Amount</th>
+        </thead>
+
+        <tr *ngFor="let investor of investors">
+            <td>{{investor.id}}</td>
+            <td>{{investor.name}}</td>
+            <td>{{investor.address}}</td>
+            <td>{{investor.amount}}</td>
+            </tr>
+</table>

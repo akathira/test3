@@ -1,0 +1,17 @@
+<h2>Fetch Transactions</h2>
+<table border="2"  style="padding:10px;">
+
+    <thead>
+        <th>Id</th>
+        <th>Type</th>
+        <th>Amount</th>
+      
+        </thead>
+
+        <tr *ngFor="let transaction of transactions">
+            <td>{{transaction.transactionId}}</td>
+            <td>{{transaction.transactionDate}}</td>
+            <td>{{transaction.transactionAmount}}</td>
+        </tr>
+</table>
+
