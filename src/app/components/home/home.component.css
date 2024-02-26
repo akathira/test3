@@ -184,3 +184,7 @@ font-size: 14px;
 .mb-4 img{
     vertical-align: middle !important;
 }
+
+.p-30{
+    padding-left: 30%;
+}
