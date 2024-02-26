@@ -4,7 +4,7 @@ margin: 0;
 padding: 0;
 }
 body {
-background: #c2e2da;
+background: #e52165;
 font-family: 'Roboto', sans-serif;
 }
 .button {
@@ -41,13 +41,13 @@ padding: 15px 50px;
 text-transform: uppercase;
 }
 #login .submit-btn {
-background: #3aa7b1;
+background: #0d1137;
 }
 #register .submit-btn {
-background: #3aaf9f;
+background: #0d1137;
 }
 #container {
-background: #ededed;
+background: #e52165;
 border-radius: 10px;
 height: 500px;
 margin: 5% auto;
@@ -83,11 +83,11 @@ padding: 23% 0 25px;
 }
 
 #login h1 {
-color: #3aa7b1;
+color: #0d1137;
 padding: 17% 0 25px;
 }
 #register h1 {
-color: #3aaf9f;
+color: #0d1137
 }
 #login p,
 #register p {
@@ -107,7 +107,7 @@ text-decoration: none;
 font-style: italic;
 }
 #signup {
-background: #3aa7b1;
+background: #0d1137;
 color: #fff;
 height: 550px;
 margin: 0 0 0 50%;
@@ -139,7 +139,7 @@ position: relative;
 top: -11px;
 }
 #signup:target {
-background: #3aaf9f;
+background: #0d1137;
 margin: 0;
 }
 #signup:target .sign-up {
@@ -187,4 +187,9 @@ font-size: 14px;
 
 .p-30{
     padding-left: 30%;
+}
+
+.img{
+    max-width: 40%;
+    height: 50%;
 }
